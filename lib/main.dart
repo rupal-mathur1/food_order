@@ -49,23 +49,7 @@ class _CategorySelectorState extends State<CategorySelector> {
     return Container(
       height: 100.0,
       color: Colors.indigoAccent ,
-      child: ListView.builder(
-        scrollDirection: Axis.horizontal,
-        itemCount: categories.length,
-        itemBuilder: (BuildContext context, int index){
-          return Padding(
-            padding: EdgeInsets.symmetric(
-              horizontal: 15.0,
-              vertical: 40.0,
-            ),
-            child: Text(categories[index],
-              style: TextStyle(
-                  color: Colors.white,),
-            ),
-          );
-        }
-      ),
-    );
+         );
   }
 }
 
